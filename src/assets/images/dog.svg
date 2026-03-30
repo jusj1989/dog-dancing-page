@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="55" ry="45" fill="#D4A04A"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="85" r="42" fill="#D4A04A"/>
+
+  <!-- Left Ear (floppy) -->
+  <ellipse cx="65" cy="60" rx="20" ry="30" fill="#8B5E2A" transform="rotate(-15 65 60)"/>
+
+  <!-- Right Ear (floppy) -->
+  <ellipse cx="135" cy="60" rx="20" ry="30" fill="#8B5E2A" transform="rotate(15 135 60)"/>
+
+  <!-- Inner Left Ear -->
+  <ellipse cx="65" cy="62" rx="12" ry="22" fill="#C27840" transform="rotate(-15 65 62)"/>
+
+  <!-- Inner Right Ear -->
+  <ellipse cx="135" cy="62" rx="12" ry="22" fill="#C27840" transform="rotate(15 135 62)"/>
+
+  <!-- Face patch -->
+  <circle cx="100" cy="95" r="25" fill="#E8C07A"/>
+
+  <!-- Left Eye white -->
+  <circle cx="85" cy="78" r="9" fill="white"/>
+  <!-- Right Eye white -->
+  <circle cx="115" cy="78" r="9" fill="white"/>
+
+  <!-- Left Eye pupil -->
+  <circle cx="87" cy="79" r="6" fill="#2C1810"/>
+  <!-- Right Eye pupil -->
+  <circle cx="117" cy="79" r="6" fill="#2C1810"/>
+
+  <!-- Left Eye shine -->
+  <circle cx="89" cy="76" r="2" fill="white"/>
+  <!-- Right Eye shine -->
+  <circle cx="119" cy="76" r="2" fill="white"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="92" rx="8" ry="6" fill="#2C1810"/>
+
+  <!-- Nose highlight -->
+  <ellipse cx="97" cy="90" rx="2.5" ry="1.5" fill="white" opacity="0.6"/>
+
+  <!-- Mouth -->
+  <path d="M 92 98 Q 100 106 108 98" stroke="#2C1810" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Tongue -->
+  <ellipse cx="100" cy="106" rx="8" ry="6" fill="#E05B7A"/>
+  <line x1="100" y1="100" x2="100" y2="112" stroke="#C04060" stroke-width="1.5"/>
+
+  <!-- Left front leg -->
+  <rect x="60" y="175" width="22" height="35" rx="11" fill="#D4A04A"/>
+  <!-- Left paw -->
+  <ellipse cx="71" cy="210" rx="13" ry="8" fill="#C27840"/>
+
+  <!-- Right front leg -->
+  <rect x="118" y="175" width="22" height="35" rx="11" fill="#D4A04A"/>
+  <!-- Right paw -->
+  <ellipse cx="129" cy="210" rx="13" ry="8" fill="#C27840"/>
+
+  <!-- Tail -->
+  <path d="M 155 145 Q 185 120 175 100 Q 165 80 180 75" stroke="#8B5E2A" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Collar -->
+  <rect x="68" y="118" width="64" height="12" rx="6" fill="#E84040"/>
+  <!-- Collar tag -->
+  <circle cx="100" cy="132" r="6" fill="#FFD700"/>
+  <text x="100" y="136" text-anchor="middle" font-size="6" fill="#8B6914" font-weight="bold">♪</text>
+
+  <!-- Belly spot -->
+  <ellipse cx="100" cy="155" rx="25" ry="20" fill="#E8C07A" opacity="0.6"/>
+</svg>
